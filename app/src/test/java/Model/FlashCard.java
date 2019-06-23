@@ -17,5 +17,38 @@ public class FlashCard {
         //TODO enum freq
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getRectoContent() {
+        return rectoContent;
+    }
+
+    public void setRectoContent(String rectoContent) {
+        this.rectoContent = rectoContent;
+    }
+
+    public String getVersoContent() {
+        return versoContent;
+    }
+
+    public void setVersoContent(String versoContent) {
+        this.versoContent = versoContent;
+    }
+
+    public Boolean getRectoNext() {
+        return isRectoNext;
+    }
+
+    public void setRectoNext(Boolean rectoNext) {
+        isRectoNext = rectoNext;
+    }
+
+
 
 }
